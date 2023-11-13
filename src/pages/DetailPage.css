@@ -1,0 +1,42 @@
+.detail-page {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .detail-header h2 {
+    margin: 0;
+  }
+  
+  .detail-body img {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* Adjust this based on your design */
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

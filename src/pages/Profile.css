@@ -1,0 +1,44 @@
+/* Profile.css */
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    margin-left: 7.2%;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+  }
+
+  .profile-konten{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 60px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+    height: 60px;
+    margin-right: 10px; /* Berikan margin antara gambar dan detail */
+    border-radius: 50%; /* Untuk membuat gambar menjadi lingkaran */
+  }
+  
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+  }
+  
+  .profile-info {
+    font-size: 16px;
+    margin: 5px 0;
+    align-items: center;
+  }
